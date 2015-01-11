@@ -16,13 +16,14 @@ public class Base : MonoBehaviour, IUnit
 	private GameObject thisGreenHealthBar;
 	private GameObject thisRedHealthBar;
 
-	void Start()
+	void Awake()
 	{
 		thisGreenHealthBar = (GameObject)Instantiate (greenHealthBar, transform.position, Quaternion.identity);
 		thisRedHealthBar = (GameObject)Instantiate (redHealthBar, transform.position, Quaternion.identity);
 		startingHealthBarZScale = thisGreenHealthBar.transform.localScale.z;
 		health = 100;
 		// Hacky hard-coded check, change later
+		print ("Initializing team");
 		if (gameObject.name.Equals("RedTent"))
 		{
 			currentTeam = new Team("Red", Color.red);

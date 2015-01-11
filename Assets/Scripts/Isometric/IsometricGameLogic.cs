@@ -25,7 +25,9 @@ public class IsometricGameLogic : MonoBehaviour {
 		{
 			baseList.AddLast(bases.transform.GetChild(i).gameObject);
 			IUnit addedBase = (IUnit) bases.transform.GetChild (i).gameObject.GetComponent(typeof(IUnit));
-			print ("Base team: " + addedBase.getTeam().getName ());
+//			if (addedBase.getTeam () == null)
+//				print ("Null base?");
+//			print ("Base team: " + addedBase.getTeam().getName ());
 			spawnSoldierOutsideBase(addedBase);
 		}
 

@@ -26,7 +26,7 @@ public class RifleMan : MonoBehaviour, IUnit {
 	private GameObject highlightCircle;
 
 	// Use this for initialization
-	void Start () 
+	void Awake () 
 	{
 		thisGreenHealthBar = (GameObject)Instantiate (greenHealthBar, transform.position, Quaternion.identity);
 		thisRedHealthBar = (GameObject)Instantiate (redHealthBar, transform.position, Quaternion.identity);
