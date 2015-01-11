@@ -107,16 +107,15 @@ public class IsometricControls : MonoBehaviour {
 		{
 			if(Physics.Raycast(player.transform.position, player.transform.forward, out hit))
 			{
-				LinkedList<GameObject> currentSoldiers = gameLogic.getSoldiers();
+				LinkedList<IUnit> currentSoldiers = gameLogic.getSoldiers();
 				
-				foreach(GameObject soldier in currentSoldiers)
+				foreach(IUnit soldier in currentSoldiers)
 				{
 					if (soldier == null)
 						continue;
-					IUnit animScript = (IUnit) soldier.GetComponent(typeof(IUnit));
-					if (animScript.getTeam().getName().Equals("Red"))
+					if (soldier.getTeam().getName().Equals("Red"))
 					{
-						animScript.moveToPosition(hit.point);
+						soldier.moveToPosition(hit.point);
 					}
 				}
 			}
@@ -142,16 +141,15 @@ public class IsometricControls : MonoBehaviour {
 		{
 			if(Physics.Raycast(player.transform.position, player.transform.forward, out hit))
 			{
-				LinkedList<GameObject> currentSoldiers = gameLogic.getSoldiers();
+				LinkedList<IUnit> currentSoldiers = gameLogic.getSoldiers();
 				
-				foreach(GameObject soldier in currentSoldiers)
+				foreach(IUnit soldier in currentSoldiers)
 				{
 					if (soldier == null)
 						continue;
-					IUnit animScript = (IUnit) soldier.GetComponent(typeof(IUnit));
-					if (animScript.getTeam().getName().Equals("Red"))
+					if (soldier.getTeam().getName().Equals("Red"))
 					{
-						animScript.attackMoveToPosition(hit.point);
+						soldier.attackMoveToPosition(hit.point);
 					}
 				}
 			}

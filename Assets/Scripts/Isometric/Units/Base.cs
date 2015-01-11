@@ -61,7 +61,7 @@ public class Base : MonoBehaviour, IUnit
 	
 	public void shootAt(IUnit target)
 	{
-
+		print ("Base shoot at");
 	}
 	
 	public Vector3 getPosition()

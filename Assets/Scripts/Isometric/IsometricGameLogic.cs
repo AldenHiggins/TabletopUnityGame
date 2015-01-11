@@ -6,92 +6,70 @@ public class IsometricGameLogic : MonoBehaviour {
 
 	public GameObject soldier;
 	public GameObject table;
-	public int startingSoldierCount;
 	public GameObject bases;
 
-	private LinkedList<GameObject> createdSoldiers;
-	private LinkedList<GameObject> soldiersToRemove;
+	private LinkedList<IUnit> gameUnits;
+	private LinkedList<IUnit> soldiersToRemove;
 
-	private LinkedList<GameObject> baseList;
+	private LinkedList<IUnit> baseList;
 
 	// Use this for initialization
 	void Start () 
 	{
-		baseList = new LinkedList<GameObject> ();
-		createdSoldiers = new LinkedList<GameObject> ();
-		soldiersToRemove = new LinkedList<GameObject> ();
+		baseList = new LinkedList<IUnit> ();
+		gameUnits = new LinkedList<IUnit> ();
+		soldiersToRemove = new LinkedList<IUnit> ();
 
 		for (int i = 0; i < bases.transform.childCount; i++)
 		{
-			baseList.AddLast(bases.transform.GetChild(i).gameObject);
-			IUnit addedBase = (IUnit) bases.transform.GetChild (i).gameObject.GetComponent(typeof(IUnit));
-//			if (addedBase.getTeam () == null)
-//				print ("Null base?");
-//			print ("Base team: " + addedBase.getTeam().getName ());
-			spawnSoldierOutsideBase(addedBase);
+			IUnit baseUnit = (IUnit) bases.transform.GetChild (i).gameObject.GetComponent(typeof(IUnit));
+			baseList.AddLast(baseUnit);
+			gameUnits.AddLast (baseUnit);
+			spawnSoldierOutsideBase(baseUnit);
 		}
-
-
-		// Old method of starting unit generation
-//		for (int i = 0; i < startingSoldierCount - 1; i++)
-//		{
-//			NavMeshHit closestHit;
-//			if( NavMesh.SamplePosition(  table.transform.position + new Vector3(0.0f, 0.25f, i * .5f), out closestHit, 500, 1 ) )
-//			{
-//				addPlayer(new Team("Red", Color.red), closestHit.position);
-//			}
-//		}
-//
-//		// Create a blue team soldier as well
-//		NavMeshHit closeHit;
-//		if( NavMesh.SamplePosition(  table.transform.position + new Vector3(0.0f, 0.25f, -1.5f), out closeHit, 500, 1 ) )
-//		{
-//			addPlayer(new Team("Blue", Color.blue), closeHit.position);
-//		}
 	}
 
 	// Update is called once per frame
 	void Update () 
 	{
 		// Check if soldiers should attack each other
-		foreach (GameObject soldier in createdSoldiers)
+		foreach (IUnit soldier in gameUnits)
 		{
 			if (soldier == null)
 			{
+				print ("Removing soldier!");
 				soldiersToRemove.AddLast(soldier);
 				continue;
 			}
-			IUnit firstIUnit = (IUnit)soldier.GetComponent (typeof(IUnit));
 			bool targetFound = false;
-			foreach (GameObject secondSoldier in createdSoldiers)
+			foreach (IUnit secondSoldier in gameUnits)
 			{
 				// TODO: Check if this works
 				if (soldier == secondSoldier)
 					continue;
 				if (secondSoldier == null)
 					continue;
-				IUnit secondIUnit = (IUnit)secondSoldier.GetComponent (typeof(IUnit));
 				// Do nothing if they are on the same team
-				if (firstIUnit.getTeam().getName ().Equals(secondIUnit.getTeam().getName ()))
+				if (soldier.getTeam().getName ().Equals(secondSoldier.getTeam().getName ()))
 					continue;
 
-				if (Vector3.Distance (soldier.transform.position, secondSoldier.transform.position) < 1)
+				if (Vector3.Distance (soldier.getPosition(), secondSoldier.getPosition ()) < 1)
 				{
-					firstIUnit.shootAt(secondIUnit);
+					soldier.shootAt(secondSoldier);
 					targetFound = true;
 				}
 			}
 
 			if (!targetFound)
 			{
-				firstIUnit.noTarget ();
+				soldier.noTarget ();
 			}
 		}
 
 		// Iterate through "dead soldiers" and clean them out of the list
-		foreach(GameObject deadSoldier in soldiersToRemove)
+		foreach(IUnit deadSoldier in soldiersToRemove)
 		{
-			createdSoldiers.Remove(deadSoldier);
+			gameUnits.Remove(deadSoldier);
 		}
 		soldiersToRemove.Clear ();
 	}
@@ -99,8 +77,9 @@ public class IsometricGameLogic : MonoBehaviour {
 	public void addPlayer(Team playerTeam, Vector3 spawnPosition)
 	{
 		GameObject newSoldier = (GameObject) Instantiate (soldier, spawnPosition, Quaternion.identity);
-		((IUnit)(newSoldier.GetComponent(typeof(IUnit)))).setTeam (playerTeam);
-		createdSoldiers.AddLast (newSoldier);
+		IUnit newIUnit = ((IUnit)(newSoldier.GetComponent (typeof(IUnit))));
+		newIUnit.setTeam (playerTeam);
+		gameUnits.AddLast (newIUnit);
 	}
 
 	void spawnSoldierOutsideBase(IUnit spawnBase)
@@ -115,24 +94,23 @@ public class IsometricGameLogic : MonoBehaviour {
 		}
 	}
 
-	public LinkedList<GameObject> getSoldiers()
+	public LinkedList<IUnit> getSoldiers()
 	{
-		return createdSoldiers;
+		return gameUnits;
 	}
 
 	public void printCurrentSoldiers()
 	{
 		print ("Printing info about current soldiers!");
 		int i = 0;
-		foreach (GameObject soldier in createdSoldiers)
+		foreach (IUnit soldier in gameUnits)
 		{
 			i++;
-			IUnit thisSoldier = ((IUnit)(soldier.GetComponent(typeof(IUnit))));
 			print ("---SOLDIER---");
-			print ("Team: " + thisSoldier.getTeam ().getName ());
-			print ("Position: " + soldier.transform.position);
-			print ("Is this soldier firing: " + thisSoldier.isSoldierFiring());
-			IUnit thisTarget = thisSoldier.getCurrentTarget();
+			print ("Team: " + soldier.getTeam ().getName ());
+			print ("Position: " + soldier.getPosition());
+			print ("Is this soldier firing: " + soldier.isSoldierFiring());
+			IUnit thisTarget = soldier.getCurrentTarget();
 			if (thisTarget == null)
 				continue;
 			print ("Target team: " + thisTarget.getTeam ().getName ());
