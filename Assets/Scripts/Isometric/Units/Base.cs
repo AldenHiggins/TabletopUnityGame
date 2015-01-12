@@ -26,11 +26,13 @@ public class Base : MonoBehaviour, IUnit
 		print ("Initializing team");
 		if (gameObject.name.Equals("RedTent"))
 		{
-			currentTeam = new Team("Red", Color.red);
+//			currentTeam = new Team("Red", Color.red);
+			setTeam (new Team("Red", Color.red));
 		}
 		else
 		{
-			currentTeam = new Team("Blue", Color.blue);
+//			currentTeam = new Team("Blue", Color.blue);
+			setTeam (new Team("Blue", Color.blue));
 		}
 	}
 
@@ -52,6 +54,7 @@ public class Base : MonoBehaviour, IUnit
 	public void setTeam(Team newTeam)
 	{
 		currentTeam = newTeam;
+		transform.gameObject.GetComponent<MeshRenderer> ().materials [0].color = newTeam.getColor ();
 	}
 	
 	public Team getTeam()
@@ -61,7 +64,7 @@ public class Base : MonoBehaviour, IUnit
 	
 	public void shootAt(IUnit target)
 	{
-		print ("Base shoot at");
+//		print ("Base shoot at");
 	}
 	
 	public Vector3 getPosition()
@@ -74,13 +77,14 @@ public class Base : MonoBehaviour, IUnit
 
 	}
 	
-	public void dealDamage(int damageDealt)
+	public void dealDamage(int damageDealt, IUnit attackingUnit)
 	{
 		health -= damageDealt;
 		if (health < 0)
 		{
 			// TODO: implement bases switching teams
 			health = 100;
+			setTeam (attackingUnit.getTeam ());
 		}
 	}
 	
@@ -102,6 +106,11 @@ public class Base : MonoBehaviour, IUnit
 	public Quaternion getRotation()
 	{
 		return transform.rotation;
+	}
+
+	public bool hasTarget()
+	{
+		return false;
 	}
 }
 

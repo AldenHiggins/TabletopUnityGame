@@ -1,21 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class RifleMan : MonoBehaviour, IUnit {
-
+public class RifleMan : MonoBehaviour, IUnit 
+{
 	Animator anim;
 	NavMeshAgent agent;
 
 	public GameObject ragDoll;
 	public GameObject muzzleFlashParticle;
 
-	public GameObject greenHealthBar;
-	public GameObject redHealthBar;
-	
-	private GameObject thisGreenHealthBar;
-	private GameObject thisRedHealthBar;
-
-	private float startingHealthBarZScale;
+	private UnitMethods unitMethods;
 
 	private Team team;
 	private int health;
@@ -28,15 +22,17 @@ public class RifleMan : MonoBehaviour, IUnit {
 	// Use this for initialization
 	void Awake () 
 	{
-		thisGreenHealthBar = (GameObject)Instantiate (greenHealthBar, transform.position, Quaternion.identity);
-		thisRedHealthBar = (GameObject)Instantiate (redHealthBar, transform.position, Quaternion.identity);
-		startingHealthBarZScale = thisGreenHealthBar.transform.localScale.z;
+		// Initialize common unit functionality
+		unitMethods = transform.GetChild (0).gameObject.GetComponent<UnitMethods> ();
+		unitMethods.createHealthBars (transform.position, .07f, new Vector3 (0.0f, 0.2083f, 0.0f));
+
 		isFiring = false;
 		isSoldierDead = false;
 		forceMove = false;
 		health = 100;
 		anim = GetComponent<Animator> ();
 		agent = GetComponent<NavMeshAgent> ();
+		// Default to red team
 		if (team == null)
 		{
 			this.setTeam (new Team ("Red", Color.red));
@@ -46,11 +42,8 @@ public class RifleMan : MonoBehaviour, IUnit {
 	// Update is called once per frame
 	void Update () 
 	{
-		// Display healthbars in the correct place
-		thisGreenHealthBar.transform.position = transform.position + new Vector3 (0.0f, 0.2083f, 0.0f);
-		Vector3 currentScale = thisGreenHealthBar.transform.localScale;
-		thisGreenHealthBar.transform.localScale = new Vector3(currentScale.x, currentScale.y, (startingHealthBarZScale * health / 100));
-		thisRedHealthBar.transform.position = transform.position + new Vector3 (0.0f, 0.2083f, 0.0f);
+		// Display healthbars
+		unitMethods.displayHealth (transform.position, health, 100);
 
 		// Check if the soldier is done moving
 		if (!agent.pathPending)
@@ -64,7 +57,6 @@ public class RifleMan : MonoBehaviour, IUnit {
 				}
 			}
 		}
-
 
 		// Check if soldier is attacking
 		if (anim.GetBool ("Aiming") == true)
@@ -80,40 +72,44 @@ public class RifleMan : MonoBehaviour, IUnit {
 		// Gets info about the current animation state
 		// AnimatorStateInfo stateInfo = anim.GetCurrentAnimatorStateInfo(0)
 	}
-
-
+	
 
 	IEnumerator attackLoop()
 	{
 		isFiring = true;
 		yield return new WaitForSeconds(1.0f);
-		if (currentTarget == null)
+		if (currentTarget.isDead())
 		{
 			print ("Shooting at a dead guy!");
+			noTarget();
+			yield break;
+		}
+		if (currentTarget.getTeam ().getName ().Equals(team.getName ()))
+		{
+			print ("Same team!");
+			noTarget ();
 			yield break;
 		}
 		Instantiate (muzzleFlashParticle, transform.position + new Vector3(0.0f, 0.13f, 0.0f), transform.rotation);
-		currentTarget.dealDamage (10);
+		currentTarget.dealDamage (10, this);
 		isFiring = false;
 	}
 	
-	public void dealDamage(int damageDealt)
+	public void dealDamage(int damageDealt, IUnit attackingUnit)
 	{
 		health -= damageDealt;
 		if (health < 0 && !isSoldierDead)
 		{
 			isSoldierDead = true;
 			// Generate a Ragdoll
-			Vector3 ragDollPosition = transform.position + new Vector3(0.0f, 0.0f, 0.0f);
+			Vector3 ragDollPosition = transform.position;
 			GameObject ragDollInstance = (GameObject) Instantiate ((Object)ragDoll, ragDollPosition, transform.rotation);
 			// Give the ragdoll the correct color
 			ragDollInstance.transform.GetChild (0).gameObject.GetComponent<SkinnedMeshRenderer> ().materials [0].color = team.getColor();
 
 			// Clean up this game object
-			transform.GetChild (0).gameObject.GetComponent<SkinnedMeshRenderer> ().enabled = false;
+			transform.GetChild (1).gameObject.GetComponent<SkinnedMeshRenderer> ().enabled = false;
 			Destroy (this.gameObject);
-			Destroy (thisGreenHealthBar);
-			Destroy (thisRedHealthBar);
 		}
 	}
 
@@ -129,12 +125,17 @@ public class RifleMan : MonoBehaviour, IUnit {
 		forceMove = false;
 		anim.SetBool ("Walking", true);
 		agent.SetDestination (newDestination);
+
+		if (currentTarget != null)
+		{
+			agent.Stop ();
+		}
 	}
 
 	public void setTeam(Team newTeam)
 	{
 		team = newTeam;
-		transform.GetChild (0).gameObject.GetComponent<SkinnedMeshRenderer> ().materials [0].color = newTeam.getColor ();
+		transform.GetChild (1).gameObject.GetComponent<SkinnedMeshRenderer> ().materials [0].color = newTeam.getColor ();
 	}
 
 	public Team getTeam()
@@ -144,13 +145,8 @@ public class RifleMan : MonoBehaviour, IUnit {
 
 	public void shootAt(IUnit target)
 	{
-		if (agent == null)
-			return;
 		// Don't pick up a target if the move command was issued
 		if (forceMove)
-			return;
-		// Kind of hacky check to make sure they're not attacking while dead
-		if (isSoldierDead)
 			return;
 		if (currentTarget != null)
 		{
@@ -170,13 +166,7 @@ public class RifleMan : MonoBehaviour, IUnit {
 		currentTarget = target;
 		anim.SetBool ("Aiming", true);
 
-
-		Vector3 vectorToTarget = target.getPosition () - transform.position;
-		float radianAngle = Mathf.Atan2 (vectorToTarget.x, vectorToTarget.z);
-		float degreesAngle = (radianAngle / Mathf.PI) * 180;
-
-		transform.rotation = Quaternion.Euler (0.0f, degreesAngle, 0.0f);
-
+		transform.rotation = unitMethods.faceTarget (transform.position, target.getPosition ());
 	}
 
 	public void noTarget()
@@ -185,6 +175,8 @@ public class RifleMan : MonoBehaviour, IUnit {
 			return;
 		anim.SetBool ("Aiming", false);
 		agent.Resume ();
+		isFiring = false;
+		currentTarget = null;
 	}
 
 	public Vector3 getPosition()
@@ -207,8 +199,15 @@ public class RifleMan : MonoBehaviour, IUnit {
 		return isFiring;
 	}
 
-	public 	Quaternion getRotation()
+	public Quaternion getRotation()
 	{
 		return transform.rotation;
+	}
+
+	public bool hasTarget()
+	{
+		if (currentTarget != null)
+			return true;
+		return false;
 	}
 }

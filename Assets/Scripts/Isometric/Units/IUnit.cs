@@ -16,7 +16,7 @@ public interface IUnit
 
 	void noTarget();
 
-	void dealDamage(int damageDealt);
+	void dealDamage(int damageDealt, IUnit attackingUnit);
 
 	bool isDead();
 
@@ -25,6 +25,8 @@ public interface IUnit
 	bool isSoldierFiring();
 
 	Quaternion getRotation();
+
+	bool hasTarget();
 }
 
 

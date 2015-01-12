@@ -35,32 +35,43 @@ public class IsometricGameLogic : MonoBehaviour {
 		// Check if soldiers should attack each other
 		foreach (IUnit soldier in gameUnits)
 		{
-			if (soldier == null)
+			if (soldier.isDead())
 			{
-				print ("Removing soldier!");
 				soldiersToRemove.AddLast(soldier);
 				continue;
 			}
-			bool targetFound = false;
+			if (soldier.hasTarget())
+			{
+				continue;
+			}
+
+			float closestDistance = 2;
+			IUnit closestEnemy = null;
 			foreach (IUnit secondSoldier in gameUnits)
 			{
 				// TODO: Check if this works
 				if (soldier == secondSoldier)
 					continue;
-				if (secondSoldier == null)
+				if (secondSoldier.isDead ())
 					continue;
 				// Do nothing if they are on the same team
 				if (soldier.getTeam().getName ().Equals(secondSoldier.getTeam().getName ()))
 					continue;
 
-				if (Vector3.Distance (soldier.getPosition(), secondSoldier.getPosition ()) < 1)
+				float distance = Vector3.Distance (soldier.getPosition(), secondSoldier.getPosition ());
+
+				if (distance < closestDistance)
 				{
-					soldier.shootAt(secondSoldier);
-					targetFound = true;
+					closestEnemy = secondSoldier;
+					closestDistance = distance;
 				}
 			}
 
-			if (!targetFound)
+			if (closestDistance < 1)
+			{
+				soldier.shootAt (closestEnemy);
+			}
+			else
 			{
 				soldier.noTarget ();
 			}

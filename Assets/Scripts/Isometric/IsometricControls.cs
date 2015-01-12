@@ -145,7 +145,7 @@ public class IsometricControls : MonoBehaviour {
 				
 				foreach(IUnit soldier in currentSoldiers)
 				{
-					if (soldier == null)
+					if (soldier.isDead())
 						continue;
 					if (soldier.getTeam().getName().Equals("Red"))
 					{
