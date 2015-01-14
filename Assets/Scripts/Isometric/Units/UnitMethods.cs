@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class UnitMethods : MonoBehaviour
 {
@@ -16,25 +17,85 @@ public class UnitMethods : MonoBehaviour
 
 	private float startingHealthBarZScale;
 
+	private Team team;
+
+	private bool forceMove;
+
+	private IUnit parentUnit;
+
+	// Shooting stuff
 	private IUnit currentTarget;
 
-	void Update()
-	{
-		if (currentTarget != null)
-		{
-
-		}
-		else
-		{
-
-		}
-	}
+	private bool isFiring;
 
 	void Awake ()
 	{
+		isFiring = false;
+		team = new Team ("Red", Color.red);
+		forceMove = false;
+	}
 
+	public void setParent(IUnit parentUnitInput)
+	{
+		parentUnit = parentUnitInput;
+	}
+
+	void Update()
+	{
+		// Check if soldier is attacking
+		if (currentTarget != null)
+		{
+			if (!isFiring)
+				StartCoroutine("attackLoop");
+		}
+		else
+		{
+			isFiring = false;
+			StopCoroutine("attackLoop");
+		}
+	}
+
+	public delegate void AttackCallback(IUnit target);
+	AttackCallback attackCallback;
+
+	public void setAttackCallback(AttackCallback callbackFunc)
+	{
+		attackCallback = callbackFunc;
+	}
+
+	IEnumerator attackLoop()
+	{
+		isFiring = true;
+		yield return new WaitForSeconds(1.0f);
+		if (currentTarget.isDead())
+		{
+			noTarget();
+			yield break;
+		}
+		if (currentTarget.getTeam ().getName ().Equals(team.getName ()))
+		{
+			noTarget ();
+			yield break;
+		}
+		currentTarget.dealDamage (10, parentUnit);
+		isFiring = false;
+		if (attackCallback != null)
+		{
+			attackCallback(currentTarget);
+		}
+		else
+		{
+			print ("No attack callback " + parentUnit.getTeam()); 
+		}
+	}
+
+	void noTarget()
+	{
+		isFiring = false;
+		currentTarget = null;
 	}
 	
+
 	void OnDestroy()
 	{
 		Destroy (thisGreenHealthBar);
@@ -69,35 +130,29 @@ public class UnitMethods : MonoBehaviour
 		thisRedHealthBar.transform.position = position + healthOffset;
 	}
 
-	public void sharedShoot(IUnit target)
+	public bool sharedShoot(IUnit target)
 	{
-//		// Don't pick up a target if the move command was issued
-//		if (forceMove)
-//			return;
-//		if (currentTarget != null)
-//		{
-//			if (currentTarget.isDead ())
-//			{
-//				currentTarget = null;
-//			}
-//			else
-//			{
-//				agent.Stop ();
-//				return;
-//			}
-//		}
-//		// Clear current destination
-//		agent.Stop ();
-//		
-//		currentTarget = target;
-//		anim.SetBool ("Aiming", true);
-//		
-//		
-//		Vector3 vectorToTarget = target.getPosition () - transform.position;
-//		float radianAngle = Mathf.Atan2 (vectorToTarget.x, vectorToTarget.z);
-//		float degreesAngle = (radianAngle / Mathf.PI) * 180;
-//		
-//		transform.rotation = Quaternion.Euler (0.0f, degreesAngle, 0.0f);
+		// Don't pick up a target if the move command was issued
+		if (forceMove)
+			return false;
+		if (currentTarget != null)
+		{
+			print ("Have a target in shared shoot");
+			if (currentTarget.isDead ())
+			{
+				print ("Shared shoot target is dead");
+				currentTarget = null;
+			}
+			else
+			{
+				print ("Shared shoot target is alive");
+				return false;
+			}
+		}
+		// Clear current destination
+		currentTarget = target;
+		return true;
+
 	}
 
 	public Quaternion faceTarget(Vector3 position, Vector3 faceThisPosition)
@@ -109,36 +164,25 @@ public class UnitMethods : MonoBehaviour
 		return Quaternion.Euler (0.0f, degreesAngle, 0.0f);
 	}
 
+	public IUnit getCurrentTarget()
+	{
+		return currentTarget;
+	}
 
+	public void setTeam(Team newTeam)
+	{
+		team = newTeam;
+	}
 
-//	public UnitMethods()
-//	{
-//		print ("Starting public variable: " + test);
-//	}
+	public bool isSoldierFiring()
+	{
+		return isFiring;
+	}
 
-//	void attackMoveToPosition(Vector3 newDestination);
-//	
-//	void moveToPosition(Vector3 newDestination);
-//	
-//	void setTeam(Team newTeam);
-//	
-//	Team getTeam();
-//	
-//	void shootAt(IUnit target);
-//	
-//	Vector3 getPosition();
-//	
-//	void noTarget();
-//	
-//	void dealDamage(int damageDealt, IUnit attackingUnit);
-//	
-//	bool isDead();
-//	
-//	IUnit getCurrentTarget();
-//	
-//	bool isSoldierFiring();
-//	
-//	Quaternion getRotation();
+	public void setForceMove(bool onOrOff)
+	{
+		forceMove = onOrOff;
+	}
 }
 
 

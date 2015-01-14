@@ -27,6 +27,10 @@ public interface IUnit
 	Quaternion getRotation();
 
 	bool hasTarget();
+
+	bool isSelected();
+
+	void setSelected(bool selectedOrNot);
 }
 
 

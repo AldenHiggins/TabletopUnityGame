@@ -85,6 +85,67 @@ public class IsometricGameLogic : MonoBehaviour {
 		soldiersToRemove.Clear ();
 	}
 
+	public LinkedList<IUnit> returnUnitsInArea(Vector3 cornerOne, Vector3 cornerTwo)
+	{
+		print ("Input corner one: " + cornerOne);
+		print ("Input corner two: " + cornerTwo);
+		Vector3 topLeftCorner;
+		Vector3 bottomRightCorner;
+
+		if (cornerOne.z < cornerTwo.z)
+		{
+			// Corner one is bottom right
+			if (cornerOne.x < cornerTwo.x)
+			{
+				bottomRightCorner = cornerOne;
+				topLeftCorner = cornerTwo;
+			}
+			// Corner one is top right
+			else
+			{
+				bottomRightCorner = new Vector3(cornerTwo.x, cornerTwo.y, cornerOne.z);
+				topLeftCorner = new Vector3(cornerOne.x, cornerTwo.y, cornerTwo.z);
+			}
+		}
+		else
+		{
+			// Corner one is bottom left
+			if (cornerOne.x < cornerTwo.x)
+			{
+				bottomRightCorner = new Vector3(cornerOne.x, cornerTwo.y, cornerTwo.z);
+				topLeftCorner = new Vector3(cornerTwo.x, cornerTwo.y, cornerOne.z);
+			}
+			// Corner one is top left
+			else
+			{
+				bottomRightCorner = cornerTwo;
+				topLeftCorner = cornerOne;				
+			}
+		}
+
+		print ("Bottom right: " + bottomRightCorner);
+		print ("Top left: " + topLeftCorner);
+
+		LinkedList<IUnit> unitsInArea = new LinkedList<IUnit> ();
+
+		foreach (IUnit unit in gameUnits)
+		{
+			Vector3 unitPosition = unit.getPosition();
+			// Check if it's within the Z range of the box
+			if ((unitPosition.z >= bottomRightCorner.z) && (unitPosition.z <= topLeftCorner.z))
+			{
+				// Check if it's within the X range of the box
+				if ((unitPosition.x >= bottomRightCorner.x) && (unitPosition.x <= topLeftCorner.x))
+				{
+					unitsInArea.AddLast(unit);
+					unit.setSelected(true);
+				}
+			}
+		}
+
+		return unitsInArea;
+	}
+
 	public void addPlayer(Team playerTeam, Vector3 spawnPosition)
 	{
 		GameObject newSoldier = (GameObject) Instantiate (soldier, spawnPosition, Quaternion.identity);

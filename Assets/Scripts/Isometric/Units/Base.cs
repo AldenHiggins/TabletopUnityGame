@@ -3,48 +3,42 @@ using System.Collections;
 
 public class Base : MonoBehaviour, IUnit
 {
-	public GameObject greenHealthBar;
-	public GameObject redHealthBar;
-
-	private float startingHealthBarZScale;
+	public GameObject explosion;
 
 	private Team currentTeam;
 	private int health;
 
-
-	
-	private GameObject thisGreenHealthBar;
-	private GameObject thisRedHealthBar;
+	private UnitMethods unitMethods;
+	private bool selectedBool;
 
 	void Awake()
 	{
-		thisGreenHealthBar = (GameObject)Instantiate (greenHealthBar, transform.position, Quaternion.identity);
-		thisRedHealthBar = (GameObject)Instantiate (redHealthBar, transform.position, Quaternion.identity);
-		startingHealthBarZScale = thisGreenHealthBar.transform.localScale.z;
+		unitMethods = transform.GetChild (0).gameObject.GetComponent<UnitMethods> ();
+		unitMethods.createHealthBars (transform.position, .07f, new Vector3 (0.0f, 0.2083f, 0.0f));
+		unitMethods.setAttackCallback (attackFunction);
+		unitMethods.setParent (this);
+		selectedBool = false;
 		health = 100;
 		// Hacky hard-coded check, change later
-		print ("Initializing team");
 		if (gameObject.name.Equals("RedTent"))
 		{
-//			currentTeam = new Team("Red", Color.red);
 			setTeam (new Team("Red", Color.red));
 		}
 		else
 		{
-//			currentTeam = new Team("Blue", Color.blue);
 			setTeam (new Team("Blue", Color.blue));
 		}
 	}
 
 	void Update()
 	{
-		// Display healthbars in the correct place
-		thisGreenHealthBar.transform.position = transform.position + new Vector3 (0.0f, 0.2083f, 0.0f);
-		Vector3 currentScale = thisGreenHealthBar.transform.localScale;
-		thisGreenHealthBar.transform.localScale = new Vector3(currentScale.x, currentScale.y, (startingHealthBarZScale * health / 100));
-		thisRedHealthBar.transform.position = transform.position + new Vector3 (0.0f, 0.2083f, 0.0f);
+		unitMethods.displayHealth (transform.position, health, 100);
 	}
 
+	void attackFunction(IUnit currentTarget)
+	{
+		Instantiate (explosion, currentTarget.getPosition(), Quaternion.identity);
+	}
 
 	// Do nothing, bases don't move
 	public void attackMoveToPosition(Vector3 newDestination){}
@@ -55,6 +49,7 @@ public class Base : MonoBehaviour, IUnit
 	{
 		currentTeam = newTeam;
 		transform.gameObject.GetComponent<MeshRenderer> ().materials [0].color = newTeam.getColor ();
+		unitMethods.setTeam (newTeam);
 	}
 	
 	public Team getTeam()
@@ -64,7 +59,10 @@ public class Base : MonoBehaviour, IUnit
 	
 	public void shootAt(IUnit target)
 	{
-//		print ("Base shoot at");
+		if (unitMethods.sharedShoot (target))
+		{
+			// Functionality if the base starts shooting
+		}
 	}
 	
 	public Vector3 getPosition()
@@ -82,7 +80,6 @@ public class Base : MonoBehaviour, IUnit
 		health -= damageDealt;
 		if (health < 0)
 		{
-			// TODO: implement bases switching teams
 			health = 100;
 			setTeam (attackingUnit.getTeam ());
 		}
@@ -95,12 +92,12 @@ public class Base : MonoBehaviour, IUnit
 	
 	public IUnit getCurrentTarget()
 	{
-		return null;
+		return unitMethods.getCurrentTarget();
 	}
 	
 	public bool isSoldierFiring()
 	{
-		return false;
+		return unitMethods.isSoldierFiring();
 	}
 
 	public Quaternion getRotation()
@@ -110,7 +107,19 @@ public class Base : MonoBehaviour, IUnit
 
 	public bool hasTarget()
 	{
+		if (unitMethods.getCurrentTarget() != null)
+			return true;
 		return false;
+	}
+
+	public bool isSelected()
+	{
+		return selectedBool;
+	}
+
+	public void setSelected(bool selectedOrNot)
+	{
+		selectedBool = selectedOrNot;
 	}
 }
 

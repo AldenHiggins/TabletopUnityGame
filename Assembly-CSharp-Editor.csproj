@@ -63,6 +63,9 @@
  <Reference Include="UnityEditor.UI">
  <HintPath>D:/Development/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/Editor/UnityEditor.UI.dll</HintPath>
  </Reference>
+ <Reference Include="LeapCSharp.NET3.5">
+ <HintPath>D:/SeniorDesign/TabletopUnityGame/Assets/Plugins/LeapCSharp.NET3.5.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>D:/Development/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>

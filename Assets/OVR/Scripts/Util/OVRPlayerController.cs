@@ -257,7 +257,8 @@ public class OVRPlayerController : MonoBehaviour
 		if (moveRight)
 			MoveThrottle += ort * (transform.lossyScale.x * moveInfluence * BackAndSideDampen * Vector3.right);
 
-		bool curHatLeft = OVRGamepadController.GPC_GetButton(OVRGamepadController.Button.LeftShoulder);
+//		bool curHatLeft = OVRGamepadController.GPC_GetButton(OVRGamepadController.Button.LeftShoulder);
+		bool curHatLeft = false;
 
 		Vector3 euler = transform.rotation.eulerAngles;
 
@@ -266,7 +267,8 @@ public class OVRPlayerController : MonoBehaviour
 
 		prevHatLeft = curHatLeft;
 
-		bool curHatRight = OVRGamepadController.GPC_GetButton(OVRGamepadController.Button.RightShoulder);
+//		bool curHatRight = OVRGamepadController.GPC_GetButton(OVRGamepadController.Button.RightShoulder);
+		bool curHatRight = false;
 
 		if(curHatRight && !prevHatRight)
 			euler.y += RotationRatchet;

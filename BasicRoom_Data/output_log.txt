@@ -12,7 +12,7 @@ Platform assembly: D:\SeniorDesign\TabletopUnityGame\BasicRoom_Data\Managed\Asse
 Loading D:\SeniorDesign\TabletopUnityGame\BasicRoom_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: D:\SeniorDesign\TabletopUnityGame\BasicRoom_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading D:\SeniorDesign\TabletopUnityGame\BasicRoom_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.046 seconds
+- Completed reload, in  0.152 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 desktop: 1920x1080 60Hz; virtual: 3600x1080 at 0,0
@@ -90,35 +90,11 @@ Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projec
  
 (Filename: C Line: 0)
 
-B released
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
- 
-(Filename: C Line: 0)
-
 B being pressed
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
 Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B released
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
  
 (Filename: C Line: 0)
 
@@ -170,11 +146,43 @@ Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projec
  
 (Filename: C Line: 0)
 
-B released
+B being pressed
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
  
 (Filename: C Line: 0)
 
@@ -218,267 +226,11 @@ Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projec
  
 (Filename: C Line: 0)
 
-B released
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
- 
-(Filename: C Line: 0)
-
 B being pressed
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
 Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B released
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B released
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B released
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B released
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B released
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B released
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B released
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
  
 (Filename: C Line: 0)
 
@@ -599,6 +351,118 @@ UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
 Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
  
 (Filename: C Line: 0)
 
@@ -882,38 +746,6 @@ Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projec
  
 (Filename: C Line: 0)
 
-B released
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
 B being pressed
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
@@ -946,139 +778,11 @@ Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projec
  
 (Filename: C Line: 0)
 
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
 B released
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
 Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B released
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
  
 (Filename: C Line: 0)
 
@@ -1258,38 +962,6 @@ Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projec
  
 (Filename: C Line: 0)
 
-B released
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
 B being pressed
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
@@ -1327,134 +999,6 @@ UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
 Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B released
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B released
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
  
 (Filename: C Line: 0)
 
@@ -1578,30 +1122,6 @@ Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projec
  
 (Filename: C Line: 0)
 
-B released
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
 B being pressed
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
@@ -1631,126 +1151,6 @@ UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
 Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B released
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B released
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B released
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
  
 (Filename: C Line: 0)
 
@@ -1874,30 +1274,6 @@ Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projec
  
 (Filename: C Line: 0)
 
-B released
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
 B being pressed
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
@@ -1919,118 +1295,6 @@ UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
 Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B released
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
- 
-(Filename: C Line: 0)
-
-B being pressed
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
-Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
  
 (Filename: C Line: 0)
 
@@ -2146,11 +1410,843 @@ Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projec
  
 (Filename: C Line: 0)
 
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
 B being pressed
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
 Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
  
 (Filename: C Line: 0)
 
@@ -2415,6 +2511,1726 @@ UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
 Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B being pressed
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:29)
+ 
+(Filename: C Line: 0)
+
+B released
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Projectiles:Update() (at D:\SeniorDesign\ThirdUnityProject\Assets\Scripts\Projectiles.cs:36)
  
 (Filename: C Line: 0)
 

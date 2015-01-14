@@ -8,16 +8,15 @@ public class RifleMan : MonoBehaviour, IUnit
 
 	public GameObject ragDoll;
 	public GameObject muzzleFlashParticle;
+	public CircleDrawing drawing;
 
 	private UnitMethods unitMethods;
 
 	private Team team;
 	private int health;
-	private IUnit currentTarget;
-	private bool forceMove;
 	private bool isSoldierDead;
-	private bool isFiring;
 	private GameObject highlightCircle;
+	private bool selectedBool;
 
 	// Use this for initialization
 	void Awake () 
@@ -25,10 +24,13 @@ public class RifleMan : MonoBehaviour, IUnit
 		// Initialize common unit functionality
 		unitMethods = transform.GetChild (0).gameObject.GetComponent<UnitMethods> ();
 		unitMethods.createHealthBars (transform.position, .07f, new Vector3 (0.0f, 0.2083f, 0.0f));
+		unitMethods.setAttackCallback (attackFunction);
+		unitMethods.setParent (this);
 
-		isFiring = false;
+		highlightCircle = drawing.createCircle (transform.position, Color.green, 0.03f);
+		highlightCircle.renderer.enabled = false;
 		isSoldierDead = false;
-		forceMove = false;
+		selectedBool = false;
 		health = 100;
 		anim = GetComponent<Animator> ();
 		agent = GetComponent<NavMeshAgent> ();
@@ -42,6 +44,13 @@ public class RifleMan : MonoBehaviour, IUnit
 	// Update is called once per frame
 	void Update () 
 	{
+		// Display circle if the unit is highlighted
+		if (selectedBool)
+		{
+			print ("Moving the highlight circle....or are we?");
+			print ("New position: " + transform.position);
+			highlightCircle.transform.position = transform.position;
+		}
 		// Display healthbars
 		unitMethods.displayHealth (transform.position, health, 100);
 
@@ -53,46 +62,16 @@ public class RifleMan : MonoBehaviour, IUnit
 				if (!agent.hasPath || agent.velocity.sqrMagnitude == 0f)
 				{
 					anim.SetBool ("Walking", false);
-					forceMove = false;
+					unitMethods.setForceMove(false);
 				}
 			}
 		}
-
-		// Check if soldier is attacking
-		if (anim.GetBool ("Aiming") == true)
-		{
-			if (!isFiring)
-				StartCoroutine("attackLoop");
-		}
-		else
-		{
-			isFiring = false;
-			StopCoroutine("attackLoop");
-		}
-		// Gets info about the current animation state
-		// AnimatorStateInfo stateInfo = anim.GetCurrentAnimatorStateInfo(0)
 	}
-	
 
-	IEnumerator attackLoop()
+	void attackFunction(IUnit target)
 	{
-		isFiring = true;
-		yield return new WaitForSeconds(1.0f);
-		if (currentTarget.isDead())
-		{
-			print ("Shooting at a dead guy!");
-			noTarget();
-			yield break;
-		}
-		if (currentTarget.getTeam ().getName ().Equals(team.getName ()))
-		{
-			print ("Same team!");
-			noTarget ();
-			yield break;
-		}
 		Instantiate (muzzleFlashParticle, transform.position + new Vector3(0.0f, 0.13f, 0.0f), transform.rotation);
-		currentTarget.dealDamage (10, this);
-		isFiring = false;
+		transform.rotation = unitMethods.faceTarget (transform.position, target.getPosition ());
 	}
 	
 	public void dealDamage(int damageDealt, IUnit attackingUnit)
@@ -110,23 +89,24 @@ public class RifleMan : MonoBehaviour, IUnit
 			// Clean up this game object
 			transform.GetChild (1).gameObject.GetComponent<SkinnedMeshRenderer> ().enabled = false;
 			Destroy (this.gameObject);
+			Destroy (highlightCircle);
 		}
 	}
 
 	public void moveToPosition(Vector3 newDestination)
 	{
-		forceMove = true;
+		unitMethods.setForceMove (true);
 		anim.SetBool ("Walking", true);
 		agent.SetDestination (newDestination);
 	}
 
 	public void attackMoveToPosition(Vector3 newDestination) 
 	{
-		forceMove = false;
+		unitMethods.setForceMove (false);
 		anim.SetBool ("Walking", true);
 		agent.SetDestination (newDestination);
 
-		if (currentTarget != null)
+		if (unitMethods.getCurrentTarget() != null)
 		{
 			agent.Stop ();
 		}
@@ -136,6 +116,7 @@ public class RifleMan : MonoBehaviour, IUnit
 	{
 		team = newTeam;
 		transform.GetChild (1).gameObject.GetComponent<SkinnedMeshRenderer> ().materials [0].color = newTeam.getColor ();
+		unitMethods.setTeam (newTeam);
 	}
 
 	public Team getTeam()
@@ -145,28 +126,12 @@ public class RifleMan : MonoBehaviour, IUnit
 
 	public void shootAt(IUnit target)
 	{
-		// Don't pick up a target if the move command was issued
-		if (forceMove)
-			return;
-		if (currentTarget != null)
+		if (unitMethods.sharedShoot (target))
 		{
-			if (currentTarget.isDead ())
-			{
-				currentTarget = null;
-			}
-			else
-			{
-				agent.Stop ();
-				return;
-			}
+			anim.SetBool ("Aiming", true);
+			agent.Stop ();
+			transform.rotation = unitMethods.faceTarget (transform.position, target.getPosition ());
 		}
-		// Clear current destination
-		agent.Stop ();
-
-		currentTarget = target;
-		anim.SetBool ("Aiming", true);
-
-		transform.rotation = unitMethods.faceTarget (transform.position, target.getPosition ());
 	}
 
 	public void noTarget()
@@ -175,8 +140,6 @@ public class RifleMan : MonoBehaviour, IUnit
 			return;
 		anim.SetBool ("Aiming", false);
 		agent.Resume ();
-		isFiring = false;
-		currentTarget = null;
 	}
 
 	public Vector3 getPosition()
@@ -191,12 +154,12 @@ public class RifleMan : MonoBehaviour, IUnit
 
 	public IUnit getCurrentTarget()
 	{
-		return currentTarget;
+		return unitMethods.getCurrentTarget();
 	}
 
 	public bool isSoldierFiring()
 	{
-		return isFiring;
+		return unitMethods.isSoldierFiring();
 	}
 
 	public Quaternion getRotation()
@@ -206,8 +169,26 @@ public class RifleMan : MonoBehaviour, IUnit
 
 	public bool hasTarget()
 	{
-		if (currentTarget != null)
+		if (unitMethods.getCurrentTarget() != null)
 			return true;
 		return false;
+	}
+
+	public void setSelected(bool selectedOrNot)
+	{
+		if (selectedOrNot == true)
+		{
+			highlightCircle.renderer.enabled = true;
+		}
+		else
+		{
+			highlightCircle.renderer.enabled = false;
+		}
+		selectedBool = selectedOrNot;
+	}
+
+	public bool isSelected()
+	{
+		return selectedBool;
 	}
 }
