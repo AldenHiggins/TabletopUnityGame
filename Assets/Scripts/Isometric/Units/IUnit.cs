@@ -31,6 +31,8 @@ public interface IUnit
 	bool isSelected();
 
 	void setSelected(bool selectedOrNot);
+
+	string getName();
 }
 
 

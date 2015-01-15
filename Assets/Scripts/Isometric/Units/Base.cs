@@ -121,6 +121,11 @@ public class Base : MonoBehaviour, IUnit
 	{
 		selectedBool = selectedOrNot;
 	}
+
+	public string getName()
+	{
+		return gameObject.name;
+	}
 }
 
 

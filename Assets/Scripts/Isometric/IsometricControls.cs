@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System;
 
 public class IsometricControls : MonoBehaviour {
 
@@ -11,6 +12,9 @@ public class IsometricControls : MonoBehaviour {
 	public CircleDrawing drawing;
 
 	private LinkedList<IUnit> selectedUnits;
+
+	private Dictionary<string, bool> previousButtonPresses;
+	private Dictionary<string, Action> buttonFunctions;
 
 	private GameObject line;
 	private GameObject selectionBox;
@@ -23,19 +27,45 @@ public class IsometricControls : MonoBehaviour {
 		selectionBox = drawing.createSelectionBox (Color.green);
 		selectionBox.renderer.enabled = false;
 		selectedUnits = new LinkedList<IUnit> ();
+		previousButtonPresses = new Dictionary<string, bool> ();
+		buttonFunctions = new Dictionary<string, Action> ();
+
+		previousButtonPresses.Add ("previousRBPressed", false);
+		previousButtonPresses.Add ("previousLBPressed", false);
+		previousButtonPresses.Add ("previousBPressed", false);
+		previousButtonPresses.Add ("previousAPressed", false);
+		previousButtonPresses.Add ("previousXPressed", false);
+		previousButtonPresses.Add ("previousYPressed", false);
+
+		buttonFunctions.Add ("previousRBPressed", rBPressedActions);
+		buttonFunctions.Add ("previousLBPressed", lBPressedActions);
+		buttonFunctions.Add ("previousBPressed", bPressedActions);
+		buttonFunctions.Add ("previousAPressed", aPressedActions);
+		buttonFunctions.Add ("previousXPressed", xPressedActions);
+		buttonFunctions.Add ("previousYPressed", yPressedActions);
 	}
 
 
 	void Update () 
 	{
-		yPressedActions ();
-		xPressedActions ();
-		aPressedActions ();
-		bPressedActions ();
-		rBPressedActions ();
+		// Do this to prevent anyone from hitting another button while performing another action
+		// which causes bugs right now
+		foreach(KeyValuePair<string, bool> entry in previousButtonPresses)
+		{
+			if (entry.Value == true)
+			{
+				buttonFunctions [entry.Key] ();
+				return;
+			}
+		}
+
+		// Call all button functions if a button is not already being pressed
+		foreach(KeyValuePair<string, Action> entry in buttonFunctions)
+		{
+			entry.Value();
+		}
 	}
 
-	private bool previousRBPressed = false;
 	private Vector3 firstSelectionCorner;
 	private Vector3 secondSelectionCorner;
 	// Perform a "move" command
@@ -45,7 +75,7 @@ public class IsometricControls : MonoBehaviour {
 		
 		bool rBPressed = OVRGamepadController.GPC_GetButton(OVRGamepadController.Button.RightShoulder);
 
-		if (rBPressed && !previousRBPressed)
+		if (rBPressed && !previousButtonPresses["previousRBPressed"])
 		{
 			if(Physics.Raycast(player.transform.position, player.transform.forward, out hit))
 			{
@@ -86,7 +116,7 @@ public class IsometricControls : MonoBehaviour {
 				}
 			}
 		}
-		else if (!rBPressed && previousRBPressed)
+		else if (!rBPressed && previousButtonPresses["previousRBPressed"])
 		{
 			foreach (IUnit selected in selectedUnits)
 			{
@@ -103,10 +133,9 @@ public class IsometricControls : MonoBehaviour {
 			LineRenderer lineRender = (LineRenderer) selectionBox.renderer;
 			lineRender.enabled = false;
 		}
-		previousRBPressed = rBPressed;
+		previousButtonPresses["previousRBPressed"] = rBPressed;
 	}
 
-	private bool previousLBPressed = false;
 	// Perform a "move" command
 	void lBPressedActions()
 	{
@@ -114,7 +143,7 @@ public class IsometricControls : MonoBehaviour {
 		
 		bool lBPressed = OVRGamepadController.GPC_GetButton(OVRGamepadController.Button.LeftShoulder);
 
-		if (lBPressed && !previousLBPressed)
+		if (lBPressed && !previousButtonPresses["previousLBPressed"])
 		{
 
 		}
@@ -122,15 +151,13 @@ public class IsometricControls : MonoBehaviour {
 		{
 			displaySelectionLine (Color.green);
 		}
-		else if (!lBPressed && previousLBPressed)
+		else if (!lBPressed && previousButtonPresses["previousLBPressed"])
 		{
-
+			gameLogic.printCurrentSoldiers();
 		}
-		previousLBPressed = lBPressed;
+		previousButtonPresses["previousLBPressed"] = lBPressed;
 	}
 
-
-	private bool previousBPressed = false;
 	// Perform a "move" command
 	void bPressedActions()
 	{
@@ -142,7 +169,7 @@ public class IsometricControls : MonoBehaviour {
 		{
 			displaySelectionLine (Color.blue);
 		}
-		else if (!bPressed && previousBPressed)
+		else if (!bPressed && previousButtonPresses["previousBPressed"])
 		{
 			if(Physics.Raycast(player.transform.position, player.transform.forward, out hit))
 			{
@@ -150,10 +177,9 @@ public class IsometricControls : MonoBehaviour {
 			}
 			line.renderer.enabled = false;
 		}
-		previousBPressed = bPressed;
+		previousButtonPresses["previousBPressed"] = bPressed;
 	}
 
-	private bool previousAPressed = false;
 	// Perform a "move" command
 	void aPressedActions()
 	{
@@ -165,7 +191,7 @@ public class IsometricControls : MonoBehaviour {
 		{
 			displaySelectionLine (Color.red);
 		}
-		else if (!aPressed && previousAPressed)
+		else if (!aPressed && previousButtonPresses["previousAPressed"])
 		{
 			if(Physics.Raycast(player.transform.position, player.transform.forward, out hit))
 			{
@@ -174,10 +200,9 @@ public class IsometricControls : MonoBehaviour {
 			line.renderer.enabled = false;
 		}
 		
-		previousAPressed = aPressed;
+		previousButtonPresses["previousAPressed"] = aPressed;
 	}
 
-	private bool previousXPressed = false;
 	// Perform a "move" command
 	void xPressedActions()
 	{
@@ -189,7 +214,7 @@ public class IsometricControls : MonoBehaviour {
 		{
 			displaySelectionLine (Color.blue);
 		}
-		else if (!xPressed && previousXPressed)
+		else if (!xPressed && previousButtonPresses["previousXPressed"])
 		{
 			if(Physics.Raycast(player.transform.position, player.transform.forward, out hit))
 			{
@@ -204,10 +229,9 @@ public class IsometricControls : MonoBehaviour {
 			line.renderer.enabled = false;
 		}
 		
-		previousXPressed = xPressed;
+		previousButtonPresses["previousXPressed"] = xPressed;
 	}
 
-	private bool previousYPressed = false;
 	// Perform an "attack move" command
 	void yPressedActions()
 	{
@@ -219,7 +243,7 @@ public class IsometricControls : MonoBehaviour {
 		{
 			displaySelectionLine (Color.red);
 		}
-		else if (!yPressed && previousYPressed)
+		else if (!yPressed && previousButtonPresses["previousYPressed"])
 		{
 			if(Physics.Raycast(player.transform.position, player.transform.forward, out hit))
 			{
@@ -234,7 +258,7 @@ public class IsometricControls : MonoBehaviour {
 			line.renderer.enabled = false;
 		}
 
-		previousYPressed = yPressed;
+		previousButtonPresses["previousYPressed"] = yPressed;
 	}
 
 

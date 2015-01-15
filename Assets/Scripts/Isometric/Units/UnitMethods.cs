@@ -31,7 +31,10 @@ public class UnitMethods : MonoBehaviour
 	void Awake ()
 	{
 		isFiring = false;
-		team = new Team ("Red", Color.red);
+		if (team == null)
+		{
+			team = new Team ("Red", Color.red);
+		}
 		forceMove = false;
 	}
 

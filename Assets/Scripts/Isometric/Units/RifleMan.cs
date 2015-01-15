@@ -19,7 +19,7 @@ public class RifleMan : MonoBehaviour, IUnit
 	private bool selectedBool;
 
 	// Use this for initialization
-	void Awake () 
+	void Awake ()
 	{
 		// Initialize common unit functionality
 		unitMethods = transform.GetChild (0).gameObject.GetComponent<UnitMethods> ();
@@ -42,13 +42,11 @@ public class RifleMan : MonoBehaviour, IUnit
 	}
 	
 	// Update is called once per frame
-	void Update () 
+	void Update ()
 	{
 		// Display circle if the unit is highlighted
 		if (selectedBool)
 		{
-			print ("Moving the highlight circle....or are we?");
-			print ("New position: " + transform.position);
 			highlightCircle.transform.position = transform.position;
 		}
 		// Display healthbars
@@ -190,5 +188,10 @@ public class RifleMan : MonoBehaviour, IUnit
 	public bool isSelected()
 	{
 		return selectedBool;
+	}
+
+	public string getName()
+	{
+		return gameObject.name;
 	}
 }

@@ -178,7 +178,8 @@ public class IsometricGameLogic : MonoBehaviour {
 		foreach (IUnit soldier in gameUnits)
 		{
 			i++;
-			print ("---SOLDIER---");
+			print ("---Unit---");
+			print ("Name: " + soldier.getName());
 			print ("Team: " + soldier.getTeam ().getName ());
 			print ("Position: " + soldier.getPosition());
 			print ("Is this soldier firing: " + soldier.isSoldierFiring());
