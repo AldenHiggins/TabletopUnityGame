@@ -18,6 +18,8 @@ public class RifleMan : MonoBehaviour, IUnit
 	private GameObject highlightCircle;
 	private bool selectedBool;
 
+	private GameObject pathLine;
+
 	// Use this for initialization
 	void Awake ()
 	{
@@ -39,6 +41,10 @@ public class RifleMan : MonoBehaviour, IUnit
 		{
 			this.setTeam (new Team ("Red", Color.red));
 		}
+
+
+		// TEMP path drawing gameobject
+		pathLine = drawing.getPathLine ();
 	}
 	
 	// Update is called once per frame
@@ -64,6 +70,30 @@ public class RifleMan : MonoBehaviour, IUnit
 				}
 			}
 		}
+
+
+		// Show nav mesh paths
+		if (agent.hasPath)
+		{
+			NavMeshPath thisPath = agent.path;
+			Vector3[] pathVertices = thisPath.corners;
+
+			LineRenderer lineRender;
+			
+			// Draw a line to show the player where they are aiming
+			lineRender = (LineRenderer) pathLine.renderer;
+			lineRender.enabled = true;
+			
+			lineRender.SetColors (Color.yellow, Color.yellow);
+			lineRender.SetVertexCount (pathVertices.Length);
+			print ("Path length: " + pathVertices.Length);
+			for (int i = 0; i < pathVertices.Length; i++)
+			{
+				lineRender.SetPosition (i, pathVertices[i]);
+			}
+		}
+
+
 	}
 
 	void attackFunction(IUnit target)
@@ -88,6 +118,7 @@ public class RifleMan : MonoBehaviour, IUnit
 			transform.GetChild (1).gameObject.GetComponent<SkinnedMeshRenderer> ().enabled = false;
 			Destroy (this.gameObject);
 			Destroy (highlightCircle);
+			Destroy (pathLine);
 		}
 	}
 
@@ -96,6 +127,11 @@ public class RifleMan : MonoBehaviour, IUnit
 		unitMethods.setForceMove (true);
 		anim.SetBool ("Walking", true);
 		agent.SetDestination (newDestination);
+		agent.updateRotation = false;
+//		StopCoroutine("turnToFacePath");
+//		StartCoroutine("turnToFacePath");
+//		transform.rotation = unitMethods.faceTarget (transform.position, agent.nextPosition);
+		transform.rotation = unitMethods.faceTarget (transform.position, newDestination);
 	}
 
 	public void attackMoveToPosition(Vector3 newDestination) 
@@ -103,10 +139,29 @@ public class RifleMan : MonoBehaviour, IUnit
 		unitMethods.setForceMove (false);
 		anim.SetBool ("Walking", true);
 		agent.SetDestination (newDestination);
+		agent.updateRotation = false;
+//		StopCoroutine("turnToFacePath");
+//		StartCoroutine("turnToFacePath");
+		transform.rotation = unitMethods.faceTarget (transform.position, newDestination);
 
 		if (unitMethods.getCurrentTarget() != null)
 		{
 			agent.Stop ();
+		}
+	}
+
+	IEnumerator turnToFacePath()
+	{
+		while(true)
+		{
+			if (!agent.pathPending)
+			{
+				transform.rotation = unitMethods.faceTarget (transform.position, agent.nextPosition);
+				Instantiate (muzzleFlashParticle, agent.nextPosition + new Vector3(0.0f, 0.13f, 0.0f), transform.rotation);
+				agent.updateRotation = true;
+				break;
+			}
+			yield return new WaitForSeconds(.01f);
 		}
 	}
 

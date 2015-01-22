@@ -44,14 +44,21 @@ public class CircleDrawing : MonoBehaviour {
 		
 		lineRender.SetColors (lineColor, lineColor);
 		lineRender.SetVertexCount (5);
+	
+		return line;
+	}
+
+
+	public GameObject getPathLine()
+	{
+		GameObject line = (GameObject)Instantiate (linePrefab, new Vector3 (0.0f, 0.0f, 0.0f), Quaternion.identity);
+
+		LineRenderer lineRender;
 		
-//		float radsPerLine = 2 * Mathf.PI / (numberOfSides - 1);
-//		for (int i = 0; i < numberOfSides; i++)
-//		{
-//			float zChange = lineRadius * Mathf.Cos (i * radsPerLine);
-//			float xChange = lineRadius * Mathf.Sin (i * radsPerLine);
-//			lineRender.SetPosition (i, lineCenter + new Vector3(xChange, 0.0f, zChange));
-//		}
+		// Draw a line to show the player where they are aiming
+		lineRender = (LineRenderer) line.renderer;
+		lineRender.enabled = false;
+
 		return line;
 	}
 

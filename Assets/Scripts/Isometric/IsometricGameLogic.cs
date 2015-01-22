@@ -159,7 +159,7 @@ public class IsometricGameLogic : MonoBehaviour {
 		NavMeshHit closestHit;
 		float degreeRotation = spawnBase.getRotation ().eulerAngles.y;
 		float rotation = (degreeRotation / 180) * Mathf.PI;
-		Vector3 spawnPosition = spawnBase.getPosition () + new Vector3(Mathf.Cos (rotation) * -.4f, 0.0f, Mathf.Sin (rotation) * .4f);
+		Vector3 spawnPosition = spawnBase.getPosition () + new Vector3(Mathf.Cos (rotation) * -.4f, 0.2f, Mathf.Sin (rotation) * .4f);
 		if( NavMesh.SamplePosition(  spawnPosition, out closestHit, 500, 1 ) )
 		{
 			addPlayer(spawnBase.getTeam(), closestHit.position);

@@ -70,6 +70,11 @@ public class UnitMethods : MonoBehaviour
 	{
 		isFiring = true;
 		yield return new WaitForSeconds(1.0f);
+		if (forceMove)
+		{
+			noTarget();
+			yield break;
+		}
 		if (currentTarget.isDead())
 		{
 			noTarget();
@@ -77,7 +82,7 @@ public class UnitMethods : MonoBehaviour
 		}
 		if (currentTarget.getTeam ().getName ().Equals(team.getName ()))
 		{
-			noTarget ();
+			noTarget();
 			yield break;
 		}
 		currentTarget.dealDamage (10, parentUnit);

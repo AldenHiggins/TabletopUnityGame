@@ -79,7 +79,7 @@ public class IsometricControls : MonoBehaviour {
 		{
 			if(Physics.Raycast(player.transform.position, player.transform.forward, out hit))
 			{
-				if (!hit.collider.gameObject.name.Equals("TableTop"))
+				if (!hit.collider.gameObject.name.Equals("Terrain"))
 				{
 					firstSelectionCorner = new Vector3(0.0f,0.0f,0.0f);
 				}
@@ -100,7 +100,7 @@ public class IsometricControls : MonoBehaviour {
 			if(Physics.Raycast(player.transform.position, player.transform.forward, out hit))
 			{
 				secondSelectionCorner = hit.point;
-				if (!hit.collider.gameObject.name.Equals("TableTop"))
+				if (!hit.collider.gameObject.name.Equals("Terrain"))
 				{
 //					secondSelectionCorner = new Vector3(0.0f,0.0f,0.0f);
 				}
@@ -120,6 +120,8 @@ public class IsometricControls : MonoBehaviour {
 		{
 			foreach (IUnit selected in selectedUnits)
 			{
+				if (selected.isDead())
+					continue;
 				selected.setSelected(false);
 			}
 			selectedUnits.Clear ();
@@ -136,6 +138,8 @@ public class IsometricControls : MonoBehaviour {
 		previousButtonPresses["previousRBPressed"] = rBPressed;
 	}
 
+
+	private GameObject selectionCircle;
 	// Perform a "move" command
 	void lBPressedActions()
 	{
@@ -145,15 +149,47 @@ public class IsometricControls : MonoBehaviour {
 
 		if (lBPressed && !previousButtonPresses["previousLBPressed"])
 		{
-
+			if (Physics.Raycast (player.transform.position, player.transform.forward, out hit))
+			{
+				selectionCircle = drawing.createCircle(hit.point, Color.green, 1.0f);
+			}
 		}
 		else if (lBPressed)
 		{
-			displaySelectionLine (Color.green);
+			displaySelectionLine (Color.white);
+			if (Physics.Raycast (player.transform.position, player.transform.forward, out hit))
+			{
+				selectionCircle.transform.position = hit.point;
+			}
 		}
 		else if (!lBPressed && previousButtonPresses["previousLBPressed"])
 		{
-			gameLogic.printCurrentSoldiers();
+			Destroy(selectionCircle);
+			foreach (IUnit selected in selectedUnits)
+			{
+				if (selected.isDead())
+					continue;
+				selected.setSelected(false);
+			}
+
+			selectedUnits.Clear ();
+			if(Physics.Raycast(player.transform.position, player.transform.forward, out hit))
+			{
+				LinkedList<IUnit> currentSoldiers = gameLogic.getSoldiers();
+
+				foreach (IUnit soldier in currentSoldiers)
+				{
+					if (Vector3.Distance(hit.point, soldier.getPosition()) < 1)
+					{
+						if (soldier.getTeam ().getName().Equals("Red"))
+						{
+							soldier.setSelected(true);
+							selectedUnits.AddLast (soldier);
+						}
+					}
+				}
+			}
+			line.renderer.enabled = false;
 		}
 		previousButtonPresses["previousLBPressed"] = lBPressed;
 	}
