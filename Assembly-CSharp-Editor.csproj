@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{8FD5113D-7099-3B77-47C1-EE8B07D7EDCF}</ProjectGuid>
+	<ProjectGuid>{8C996A28-0CAC-2B06-CFCD-13956F48758B}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -66,7 +66,7 @@
  <HintPath>D:/Development/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/Editor/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="LeapCSharp.NET3.5">
- <HintPath>D:/SeniorDesign/TabletopUnityGame/Assets/Plugins/LeapCSharp.NET3.5.dll</HintPath>
+ <HintPath>D:/SeniorDesign/ThirdUnityProject/Assets/Plugins/LeapCSharp.NET3.5.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>D:/Development/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -76,9 +76,13 @@
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{71AE0FCE-7182-FCF3-9896-2A6472579C5D}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
+<<<<<<< HEAD
       <Project>{8545C0E1-BF70-7522-A31F-71B68116BA48}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript.unityproj">
       <Project>{677ADC01-62C9-8BA5-02B8-0029E47AC6DD}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
+=======
+      <Project>{CA6A98A7-5801-F1AE-F8A5-C0DDDD5B4973}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+>>>>>>> origin/master
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
