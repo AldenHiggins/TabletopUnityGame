@@ -1,3 +1,8 @@
+
+
+
+
+
 /************************************************************************************
 
 Copyright   :   Copyright 2014 Oculus VR, LLC. All Rights reserved.
@@ -212,17 +217,17 @@ public class OVRPlayerController : MonoBehaviour
 
 		bool dpad_move = false;
 
-		if (OVRGamepadController.GPC_GetButton(OVRGamepadController.Button.Up))
-		{
-			moveForward = true;
-			dpad_move   = true;
-
-		}
-		if (OVRGamepadController.GPC_GetButton(OVRGamepadController.Button.Down))
-		{
-			moveBack  = true;
-			dpad_move = true;
-		}
+//		if (OVRGamepadController.GPC_GetButton(OVRGamepadController.Button.Up))
+//		{
+//			moveForward = true;
+//			dpad_move   = true;
+//
+//		}
+//		if (OVRGamepadController.GPC_GetButton(OVRGamepadController.Button.Down))
+//		{
+//			moveBack  = true;
+//			dpad_move = true;
+//		}
 
 		MoveScale = 1.0f;
 

@@ -12,6 +12,7 @@ public class IsometricControls : MonoBehaviour {
 	public CircleDrawing drawing;
 
 	private LinkedList<IUnit> selectedUnits;
+	private IUnit focusedUnit;
 
 	private Dictionary<string, bool> previousButtonPresses;
 	private Dictionary<string, Action> buttonFunctions;
@@ -26,6 +27,8 @@ public class IsometricControls : MonoBehaviour {
 		line.renderer.enabled = false;
 		selectionBox = drawing.createSelectionBox (Color.green);
 		selectionBox.renderer.enabled = false;
+		upPressedOnce = false;
+		abilityType = 0;
 		selectedUnits = new LinkedList<IUnit> ();
 		previousButtonPresses = new Dictionary<string, bool> ();
 		buttonFunctions = new Dictionary<string, Action> ();
@@ -36,6 +39,7 @@ public class IsometricControls : MonoBehaviour {
 		previousButtonPresses.Add ("previousAPressed", false);
 		previousButtonPresses.Add ("previousXPressed", false);
 		previousButtonPresses.Add ("previousYPressed", false);
+		previousButtonPresses.Add ("previousUpPressed", false);
 
 		buttonFunctions.Add ("previousRBPressed", rBPressedActions);
 		buttonFunctions.Add ("previousLBPressed", lBPressedActions);
@@ -43,6 +47,7 @@ public class IsometricControls : MonoBehaviour {
 		buttonFunctions.Add ("previousAPressed", aPressedActions);
 		buttonFunctions.Add ("previousXPressed", xPressedActions);
 		buttonFunctions.Add ("previousYPressed", yPressedActions);
+		buttonFunctions.Add ("previousUpPressed", upPressedActions);
 	}
 
 
@@ -64,6 +69,45 @@ public class IsometricControls : MonoBehaviour {
 		{
 			entry.Value();
 		}
+	}
+
+
+	private bool upPressedOnce;
+	private int abilityType;
+	// Perform a "move" command
+	void upPressedActions()
+	{
+		RaycastHit hit;
+		
+		bool upPressed = OVRGamepadController.GPC_GetButton(OVRGamepadController.Button.Up);
+		
+		if (upPressed) 
+		{
+			if (upPressedOnce)
+			{
+				// Targeted ability
+				if (abilityType == 1)
+				{
+					displaySelectionLine (Color.blue);
+				}
+			}
+		}
+		else if (!upPressed && previousButtonPresses["previousUpPressed"])
+		{
+			if (upPressedOnce)
+			{
+				upPressedOnce = false;
+			}
+			else
+			{
+				upPressedOnce = true;
+				foreach(IUnit soldier in selectedUnits)
+				{
+					soldier.useSpecialAbility();
+				}
+			}
+		}
+		previousButtonPresses["previousUpPressed"] = upPressed;
 	}
 
 	private Vector3 firstSelectionCorner;

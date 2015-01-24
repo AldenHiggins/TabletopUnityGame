@@ -32,7 +32,13 @@ public interface IUnit
 
 	void setSelected(bool selectedOrNot);
 
+	void setFocused(bool focusedOrNot);
+
 	string getName();
+
+	void useSpecialAbility();
+
+	SpecialAbilityType getSpecialAbility();
 }
 
 

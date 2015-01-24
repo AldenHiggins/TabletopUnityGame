@@ -249,4 +249,18 @@ public class RifleMan : MonoBehaviour, IUnit
 	{
 		return gameObject.name;
 	}
+
+	public void useSpecialAbility()
+	{
+		print ("Rifleman special ability!");
+	}
+
+	public SpecialAbilityType getSpecialAbility()
+	{
+		return new SpecialAbilityType (1,3.0f);
+	}
+
+	public void setFocused(bool focusedOrNot)
+	{
+	}
 }

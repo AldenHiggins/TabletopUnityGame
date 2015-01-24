@@ -17,6 +17,7 @@ public class NewRifleMan : MonoBehaviour, IUnit
 	private bool isSoldierDead;
 	private GameObject highlightCircle;
 	private bool selectedBool;
+	private bool focusedBool;
 
 	private GameObject pathLine;
 
@@ -33,6 +34,7 @@ public class NewRifleMan : MonoBehaviour, IUnit
 		highlightCircle.renderer.enabled = false;
 		isSoldierDead = false;
 		selectedBool = false;
+		focusedBool = false;
 		health = 100;
 		anim = GetComponent<Animator> ();
 		agent = GetComponent<NavMeshAgent> ();
@@ -72,26 +74,26 @@ public class NewRifleMan : MonoBehaviour, IUnit
 		}
 
 
-		// Show nav mesh paths
-		if (agent.hasPath)
-		{
-			NavMeshPath thisPath = agent.path;
-			Vector3[] pathVertices = thisPath.corners;
-
-			LineRenderer lineRender;
-			
-			// Draw a line to show the player where they are aiming
-			lineRender = (LineRenderer) pathLine.renderer;
-			lineRender.enabled = true;
-			
-			lineRender.SetColors (Color.yellow, Color.yellow);
-			lineRender.SetVertexCount (pathVertices.Length);
-			print ("Path length: " + pathVertices.Length);
-			for (int i = 0; i < pathVertices.Length; i++)
-			{
-				lineRender.SetPosition (i, pathVertices[i]);
-			}
-		}
+//		// Show nav mesh paths
+//		if (agent.hasPath)
+//		{
+//			NavMeshPath thisPath = agent.path;
+//			Vector3[] pathVertices = thisPath.corners;
+//
+//			LineRenderer lineRender;
+//			
+//			// Draw a line to show the player where they are aiming
+//			lineRender = (LineRenderer) pathLine.renderer;
+//			lineRender.enabled = true;
+//			
+//			lineRender.SetColors (Color.yellow, Color.yellow);
+//			lineRender.SetVertexCount (pathVertices.Length);
+//			print ("Path length: " + pathVertices.Length);
+//			for (int i = 0; i < pathVertices.Length; i++)
+//			{
+//				lineRender.SetPosition (i, pathVertices[i]);
+//			}
+//		}
 
 
 	}
@@ -168,7 +170,10 @@ public class NewRifleMan : MonoBehaviour, IUnit
 	public void setTeam(Team newTeam)
 	{
 		team = newTeam;
-//		transform.GetChild (1).gameObject.GetComponent<SkinnedMeshRenderer> ().materials [0].color = newTeam.getColor ();
+		transform.GetChild (1).gameObject.GetComponent<SkinnedMeshRenderer> ().materials [0].color = newTeam.getColor ();
+		transform.GetChild (2).gameObject.GetComponent<SkinnedMeshRenderer> ().materials [0].color = newTeam.getColor ();
+		transform.GetChild (3).GetChild (0).GetChild (0).GetChild (2).GetChild (0).GetChild (0).GetChild (0) // Gets to Bip01 Head
+			.GetChild (0).gameObject.GetComponent<MeshRenderer> ().materials [0].color = newTeam.getColor ();
 		unitMethods.setTeam (newTeam);
 	}
 
@@ -248,5 +253,29 @@ public class NewRifleMan : MonoBehaviour, IUnit
 	public string getName()
 	{
 		return gameObject.name;
+	}
+
+	public void useSpecialAbility()
+	{
+		print ("New Rifleman special ability!");
+	}
+
+	public SpecialAbilityType getSpecialAbility()
+	{
+		return new SpecialAbilityType (1,3.0f);
+	}
+
+	public void setFocused(bool focusedOrNot)
+	{
+		focusedBool = focusedOrNot;
+		LineRenderer renderer = (LineRenderer) highlightCircle.renderer;
+		if (focusedBool == true)
+		{
+			renderer.SetColors(Color.red, Color.red);
+		}
+		else
+		{
+			renderer.SetColors(Color.green, Color.green);
+		}
 	}
 }

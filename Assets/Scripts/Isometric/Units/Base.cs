@@ -10,6 +10,7 @@ public class Base : MonoBehaviour, IUnit
 
 	private UnitMethods unitMethods;
 	private bool selectedBool;
+	private bool focusedBool;
 
 	void Awake()
 	{
@@ -18,6 +19,7 @@ public class Base : MonoBehaviour, IUnit
 		unitMethods.setAttackCallback (attackFunction);
 		unitMethods.setParent (this);
 		selectedBool = false;
+		focusedBool = false;
 		health = 100;
 		// Hacky hard-coded check, change later
 		if (gameObject.name.Equals("RedTent"))
@@ -125,6 +127,21 @@ public class Base : MonoBehaviour, IUnit
 	public string getName()
 	{
 		return gameObject.name;
+	}
+
+	public void useSpecialAbility()
+	{
+		print ("Base special ability!");
+	}
+
+	public SpecialAbilityType getSpecialAbility()
+	{
+		return new SpecialAbilityType (0,0.0f);
+	}
+
+	public void setFocused(bool focusedOrNot)
+	{
+		focusedBool = focusedOrNot;
 	}
 }
 
